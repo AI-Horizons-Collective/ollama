@@ -8,7 +8,7 @@ on:
 
 env:
   DOCKER_REGISTRY: registry.cn-wulanchabu.aliyuncs.com
-  FINAL_IMAGE_REPO: ${{ env.DOCKER_REGISTRY }}/ai-horizons-collective/ollama
+  FINAL_IMAGE_REPO: registry.cn-wulanchabu.aliyuncs.com/ai-horizons-collective/ollama
 
 jobs:
   # Linux x86 assets built using the container based build
