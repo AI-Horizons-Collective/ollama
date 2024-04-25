@@ -33,7 +33,6 @@ jobs:
           username: ${{ secrets.ALI_DOCKER_USERNAME }}
           password: ${{ secrets.ALI_DOCKER_PASSWORD }}
       - run: |
-          PUSH=true
           ./scripts/build_linux.sh
           ./scripts/build_docker.sh
           mv dist/deps/* dist/
